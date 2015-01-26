@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Tangerine|Berkshire+Swash' rel='stylesheet' type='text/css'>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body style="display: none;">
+    <div class="container">
+      <div class="header heading">
+        <h3 class="text-muted">Game of Thrones Quiz</h3>
+      </div>
+
+      <div class="jumbotron">
+	    <div class="quiz">
+	      <p class="question"></p>
+	      <ul class="options">
+	      	<li class="choice" id="option1"></li>
+	      	<li class="choice" id="option2"></li>
+	      	<li class="choice" id="option3"></li>
+	  		</ul>
+	      <p class="results"></p>
+	      <p class="score"></p>
+	      <p class="thanks">Thanks for playing!</p>
+	      <div class="generate" id="generate"></div>
+	    </div>
+ 	<!-- Question Photos -->
+		<ul class="bxslider">
+		  <li><img src="./img/cersei1.jpg" /></li>
+		  <li><img src="./img/ghost.png" alt="ghost"/></li>
+		  <li><img src="./img/ice.jpg" alt="ice" /></li>
+		  <li><img src="./img/snow.jpg" alt="snow" /></li>
+		  <li><img src="./img/arya.jpg" alt="arya" /></li>
+		  <li><img src="./img/thanks.jpg" alt="thanks"</li>
+		</ul>
+    </div> <!-- /container -->
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/app.js"> </script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
